@@ -29,15 +29,14 @@ The player tries to guess a randomly generated number between 0 and 100.
 
 ## 📂 Project Structure
 
+```
 number-guessing-web/
-├── App.tsx # Main game logic
-├── app/ # Expo Router entry (index.tsx → App.tsx)
-├── app.json # Expo configuration
-├── package.json # Dependencies
+├── App.tsx           # Main game logic
+├── app/              # Expo Router entry (index.tsx → App.tsx)
+├── app.json          # Expo configuration
+├── package.json      # Dependencies
 └── ...
-
-yaml
-Copy code
+```
 
 ---
 
@@ -48,14 +47,16 @@ Copy code
    ```bash
    git clone https://github.com/<your-username>/number-guessing-web.git
    cd number-guessing-web
+   ```
 
-Install dependencies:
+2. Install dependencies:
 
-bash
-Copy code
-pnpm install
-Start the app:
+   ```bash
+   pnpm install
+   ```
 
-bash
-Copy code
-pnpm run web
+3. Start the app:
+
+   ```bash
+   pnpm run web
+   ```
